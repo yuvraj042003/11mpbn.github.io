@@ -1,0 +1,85 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.carousel-item img{
+	width: 100%;
+	height: 93vh;
+	
+}
+.navbar img{
+	size: 30%;
+	border-radius: 5%;
+	width:4%;
+}
+
+.navbar .navbar-brand a{
+	font-size: 72px;
+	alignment: center;
+}
+.main h1{
+	font-size: 46px;
+	font-family: cursive;
+}
+.container-fluid img{
+	width: auto;
+	align-items: center;
+	text-align: right;
+}
+.about p{
+	font-size: 22px;
+	margin: 2px;
+	padding: 2px;
+	font-family: sans-serif;}
+.navi span {
+	color: white;
+	font-size: 16px;
+}
+.container img{
+	padding-top: 5px ;
+	margin-top: 2px;
+	border: 2px;
+	border-color: white;
+}
+
+.new h1{
+	margin-top: 5px;
+	padding-top: 2px;
+}
+.name p{
+	color: darkslateblue;
+	font-size: 30px;
+	margin-left: 0.22 ;
+}
+@media (max-width: 420px) 
+{
+	.navbar img{
+		width:10%;
+	}
+	.about p{
+		font-size: auto;
+		margin: 1px;
+		padding: 1px;
+	}
+	.navi span{
+	color: white;
+	font-size: auto;
+	}
+	.name p{
+	color: darkslateblue;
+	font-size: 30px;
+	margin-left: 0.22 ;
+}
+	.container img{
+	padding-top: auto ;
+	margin-top: auto;
+	border: auto;
+	border-color: white;
+}
+.shapath p{
+	font-size: auto;
+	color: darkslateblue;
+}
+
+}
